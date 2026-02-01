@@ -76,7 +76,7 @@ export default function About() {
             </p>
 
             <motion.a
-              href="/CV ERAN YOSEF.pdf"
+              href="/Portfolio/CV ERAN YOSEF.pdf"
               download
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
