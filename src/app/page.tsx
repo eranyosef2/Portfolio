@@ -10,7 +10,6 @@ import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import LoadingScreen from "@/components/LoadingScreen";
-import ThemeToggle from "@/components/ThemeToggle";
 import { ParallaxBackground, SmoothScroll } from "@/components/ParallaxWrapper";
 
 export default function Home() {
@@ -33,7 +32,6 @@ export default function Home() {
 
         <ParallaxBackground />
         <Navbar />
-        <ThemeToggle />
         <main className="relative">
           <Hero />
           <About />
