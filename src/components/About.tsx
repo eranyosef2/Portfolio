@@ -10,6 +10,21 @@ export default function About() {
     target: ref,
     offset: ["start end", "end start"],
   });
+  async function handleDownloadCV() {
+  try {
+    const response = await fetch("/Portfolio/CV-ERAN-YOSEF.pdf");
+    const blob = await response.blob();
+    const url = window.URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "CV ERAN YOSEF.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    window.URL.revokeObjectURL(url);
+  } catch {
+    window.open("/Portfolio/CV-ERAN-YOSEF.pdf", "_blank");
+  }
 
   const y = useTransform(scrollYProgress, [0, 1], [100, -100]);
 
