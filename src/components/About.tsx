@@ -46,7 +46,6 @@ export default function About() {
           className="text-center mb-16"
         >
           <span className="text-indigo-400 font-medium">Get To Know Me</span>
-          <h2 className="text-4xl md:text-5xl font-bold mt-2 gradient-text">About Me</h2>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
