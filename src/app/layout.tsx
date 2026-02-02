@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Eran Yosef | Full Stack Engineer",
-    description: "Full Stack Engineer specializing in React, Next.js, Node.js, and modern web technologies. Building scalable web applications.",
+    description: "Full Stack Engineer specializing in building scalable web applications.",
     type: "website",
     url: "https://eranyosef.dev",
     images: [
